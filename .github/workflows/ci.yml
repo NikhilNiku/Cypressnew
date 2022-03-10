@@ -1,29 +1,10 @@
 image: cypress/browsers:node12.14.1-chrome85-ff81
 
-on:
-  push:
-    branches:
-    - '*'
-
-pipelines:
-  branches:
-    develop:
-      - parallel:      # these 2 steps will run in parallel
-        - step:
-            script:
-              # install dependencies
-              - npm ci
-              # run Cypress tests
-              - npm run cy:run:Test1
-            artifacts:
-            # store any generated images as artifacts
-            - cypress/screenshots/**/*.png
-        - step:
-            script:
-              # install dependencies
-              - npm ci
-              # run Cypress tests
-              - npm run cy:run:Test2
-            artifacts:
-            # store any generated images as artifacts
-            - cypress/screenshots/**/*.png  
+name: Cypress Demp
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: windows-latest
+    steps:
+      - run: npm ci
+      - run: npx cypress run --spec "cypress/integration/AutoCheckBillingTests/Running.spec.js
