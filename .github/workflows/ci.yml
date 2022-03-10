@@ -10,4 +10,4 @@ jobs:
           node-version: 14.x
 
       - run: npm install
-      - run: npx cypress run --spec "cypress/integration/AutoCheckBillingTests/Running.spec.js
+      - run: npx cypress run --spec "cypress/integration/AutoCheckBillingTests/Running.spec.js"
