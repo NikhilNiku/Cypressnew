@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:run:Test1":"cypress run --spec=cypress/integration/AutoCheckBillingTests/Invoiced.spec.js",
-    "cy:run:Test2":"cypress run --spec=cypress/integration/AutoCheckBillingTests/RMT_10InvoicesForACI.spec.js",
+    "cy:run:Test2":"cypress run --spec=cypress/integration/AutoCheckBillingTests/RMT_17BillingAPILosses.spec.js",
 	"build": "echo 'build script executed'"
   },
   "author": "",
