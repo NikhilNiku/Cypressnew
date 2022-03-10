@@ -1,0 +1,12 @@
+{
+	"baseUrl": "https://apps.prod.autotec.com/",
+	"env": {
+		"configFile": "prod",
+		"acaApi": "https://aca.prod.autotec.com/api/",
+		"aciApi": "https://aci.prod.autotec.com/api/",
+		"acaApiKey": "eGVVReS4lX9V1HLZodUQc3p5ako7P5Fp48GeiNSJ",
+		"aciApiKey": "kCKvn9w5rf3EIsRAzRgVE5TooDgRxTTm938aQ7dC",
+		"username": "telerik@autotec.com",
+		"password": "Pa$$word123456789"
+	}
+}

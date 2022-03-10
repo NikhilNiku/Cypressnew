@@ -1,0 +1,12 @@
+{
+	"baseUrl": "https://apps.stage.autotec.com/",
+	"env": {
+		"configFile": "stage",
+		"acaApi": "https://aca.stage.autotec.com/api/",
+		"aciApi": "https://aci.stage.autotec.com/api/",
+		"acaApiKey": "kiSEKrFiCC7CkBZg07aWK78YtAuACFHTanpAOvkA",
+		"aciApiKey": "MxEaokyZAPanMvYpc9WnT8NWRMYYz89r75omWD94",
+		"username": "telerik@autotec.com",
+		"password": "Pa$$word123456789"
+	}
+}

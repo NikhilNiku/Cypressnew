@@ -1,0 +1,25 @@
+{
+  "chromeWebSecurity": false,
+  "requestTimeout": 30000,
+  "projectId": "1pqobu",
+  "retries": {
+    "runMode": 2,
+    "openMode": 0
+  },
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "host": "https://autotec.testrail.net",
+    "username": "dworsham@autotec.com",
+    "password": "fajpEoXKWvtizwx2XYOf-M2WFf2trbab2sYWWJY8m",
+    "reportDir": "cypress/reports",
+    "reportFilename":"report",
+    "projectId": 6,
+    "runId": 1115,
+    "overwrite": false,
+    "html": true,
+    "json": false,
+    "charts": "true"
+  },
+  "video":true,
+  "videoUploadOnPasses":false
+}

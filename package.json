@@ -1,0 +1,34 @@
+{
+  "name": "autotec_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run:Test1":"cypress run --spec=cypress/integration/AutoCheckBillingTests/acaBillingWorkflow1.spec.js,cypress/integration/AutoCheckBillingTests/acaBillingWorkflow2.spec.js,cypress/integration/AutoCheckBillingTests/acaBillingWorkflow3.spec.js,cypress/integration/AutoCheckBillingTests/acaBillingWorkflow4.spec.js,cypress/integration/AutoCheckBillingTests/aciBillingWorkflow1.spec.js,cypress/integration/AutoCheckBillingTests/aciBillingWorkflow2.spec.js,cypress/integration/AutoCheckBillingTests/aciBiilingWorkflow3.spec.js,cypress/integration/AutoCheckBillingTests/acaBillingWorkflow4.spec.js,cypress/integration/AutoCheckBillingTests/aciBiilingWorkflow5.spec.js,cypress/integration/AutoCheckBillingTests/aciBiilingWorkflow6.spec.js,cypress/integration/AutoCheckBillingTests/Invoiced.spec.js,cypress/integration/AutoCheckBillingTests/manualBillingExecution.spec.js",
+    "cy:run:Test2":"cypress run --spec=cypress/integration/AutoCheckBillingTests/billingInformationScreen.spec.js,cypress/integration/AutoCheckBillingTests/billingInformationScreenTierInfo.spec.js,cypress/integration/AutoCheckBillingTests/billingRepotingScreen.spec.js,cypress/integration/AutoCheckBillingTests/flatInvoiceRate-ReportType.spec.js,cypress/integration/AutoCheckBillingTests/InvalidVINMarkingInconsistencies.spec.js,cypress/integration/AutoCheckBillingTests/RMT_10InvoicesForACI.spec.js,cypress/integration/AutoCheckBillingTests/RMT_17BillingAPILosses.spec.js,cypress/integration/AutoCheckBillingTests/Running.spec.js,cypress/integration/AutoCheckBillingTests/viewCustomerRates.spec.js,cypress/integration/AutoCheckBillingTests/VINcountsInAthena.spec.js,cypress/integration/AutoCheckBillingTests/ReadyForApproval.spec.js,cypress/integration/AutoCheckBillingTests/readyToInvoice.spec.js,cypress/integration/AutoCheckBillingTests/RMT-346EnableBillingSummary.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-glue": "^3.26.0",
+    "assert": "^2.0.0",
+    "athena-express": "^7.1.0",
+    "autoset-status-cypress-testrail-reporter": "^1.1.2",
+    "aws-sdk": "^2.989.0",
+    "browserify-fs": "^1.0.0",
+    "cy-verify-downloads": "0.0.5",
+    "cypress-downloadfile": "^1.2.1",
+    "fs": "0.0.1-security",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^6.0.1",
+    "moment": "^2.29.1",
+    "os": "^0.1.2",
+    "promise": "^8.1.0"
+  },
+  "devDependencies": {
+    "cypress": "^7.6.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
